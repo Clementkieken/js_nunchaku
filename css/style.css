@@ -1,0 +1,101 @@
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color:fuchsia /* #f0f 4 life */
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    border: 2px solid cyan;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.js{
+    display: flex;
+    width: 10%;
+    text-align:center;
+    margin:auto;
+    border: solid 1px black;
+
+}
+
+.container {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+h1, h2 {
+    margin : 0.2em;
+	color: lime;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3, h4 {
+	font-weight: bold;
+	color: darkblue;
+}
+
+h3 {
+    font-size : 0.8em;
+    margin: 1em;
+    font-style: italic;
+}
+
+h4 {
+    font-size : 1.5em;
+    margin: 2em;
+}
+
+.inspiration {
+	text-align: center;
+    margin: 0.3em 2em;
+    font-style: italic;
+}
+
+#countdown{
+    font-size: 5em;
+    font-weight: bold;
+    border: solid rgb(255, 251, 0) 2px;
+    padding: 20px;
+	color: darkgoldenrod;
+    border-radius: 10px;
+    background-color: rgb(0, 58, 43);
+}
+
+.video {
+    margin: 5em;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+	font-family: 'Rubik', sans-serif;
+    align-items: flex-end;
+    padding : 0.5em 0em;
+    border : solid lime 7px;
+	border-radius: 35%;;
+    padding-right: 2em;
+    padding-left: 20px;
+	margin: 0 1.5em;
+}
